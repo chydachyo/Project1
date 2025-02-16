@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Русская литература</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/oknige_evgeniy.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Advent+Pro:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header class="header">
+	<nav class="navbar navbar-expand-md bg-dark navbar-dark">
+  	<div class="container-fluid">
+    	<a href="index.html" class="navbar-brand LOGO"><img src="img/LOGOBTN.png" width="130" height="130"></a>
+
+<!--невидимая кнопка при уменьшении экрана -->
+    	<button 
+    	class="navbar-toggler" 
+    	type="button" 
+    	data-bs-toggle="collapse" 
+    	data-bs-target="#navbarSupportedContent" 
+    	aria-controls="navbarSupportedContent" 
+    	aria-expanded="false" 
+    	aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+    	</button>
+
+
+    	<div class="collapse navbar-collapse" id="navbarSupportedContent">
+      	<ul class="navbar-nav types">
+      		<li class="nav-item">
+      			<a class="nav-link active nazad" aria-current="page" href="PUSHKIN.html">← Назад</a>
+      		</li>
+        	<li class="nav-item"> 
+          	<a class="nav-link active type1" aria-current="page" href="index.html">Главная</a>
+        	</li>
+        	<li class="nav-item dropdown">
+
+          	<a href="#" 
+          	class="nav-link dropdown-toggle type2" 
+          	role="button"
+          	data-bs-toggle="dropdown" 
+          	aria-expanded="false">
+            	Подробнее
+          	</a>
+
+          	<ul class="dropdown-menu">
+            	<li><a class="dropdown-item" href="modder.html">Создатель проекта</a></li>
+            	<li><hr class="dropdown-divider"></li>
+            	<li><a class="dropdown-item" href="#">Поддержать автора</a></li>
+          	</ul>
+        	</li>
+      	</ul>
+    	</div>
+  	</div>
+	</nav>
+</header>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+<script>
+    let prevScrollPos = window.pageYOffset;
+    const header = document.querySelector('.header');
+    
+    window.onscroll = function() {
+        let currentScrollPos = window.pageYOffset;
+        
+        if (prevScrollPos > currentScrollPos) {
+            // Прокрутка вверх - показываем хедер
+            header.style.top = "0px";
+        } else {
+            // Прокрутка вниз - скрываем хедер
+            header.style.top = "-200px"; // или значение, подходящее для вашего хедера
+        }
+        
+        prevScrollPos = currentScrollPos;
+    }
+</script>
+
+<div class="container nazv">
+	<div class="row justify-content-center">
+		<div class="col-12 col-sm-10 col-md-10 col-lg-10 text-center">
+			<h1>"Евгений Онегин"</h1>
+			<p class="mt-4">О книге</p>
+		</div>
+	</div>
+</div>
+
+<div class="container oknige">
+	<div class="row justify-content-center">
+		<div class="col-md-8">
+			<p><span class="book-name">«Евгений Онегин»</span> — роман в стихах Александра Сергеевича Пушкина, написанный в 1823-1831 годах.<br>В центре произведения — история молодого дворянина Евгения Онегина, который, разочарованный в светской жизни, уезжает в деревню, где встречает Татьяну Ларину, наивную и искреннюю девушку. Она влюбляется в него, но Онегин, в силу своей циничной натуры, отвергает её. В дальнейшем, спустя несколько лет, они снова встречаются, и теперь уже Онегин испытывает чувства к Татьяне, но она отвергает его.<br>
+			<span class="book-name">Одна из главных тем книги</span> — тема разочарования и утраты. Онегин — типичный представитель поколения, которое потеряло внутреннюю цельность и увлеклось пустыми удовольствиями. Его жизнь наполнена скукой и недовольством, а его отказ от любви Татьяны служит ярким примером его бесчувственности и недооценки искренних чувств. В этом контексте важен вопрос о том, как жизненные ошибки, упущенные возможности и недостаток искренности приводят к внутреннему разрыву и утрате.<br>
+			<span class="book-name">Одна из выдающихся черт романа</span> — стиль Пушкина, который сочетает в себе элементы лиризма, реализма и философской глубины. Используя различные литературные формы — стихотворные эпизоды, письма, диалоги — Пушкин создает богатую картину русской жизни того времени. Он мастерски изображает внутренние переживания героев, их размышления о жизни и любви, а также различные типы людей, встречающихся на пути Онегина.</p>
+		</div>
+	</div>
+</div>
+
+<div class="container mt-5 buttonzone">
+	<div class="row">
+		<div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center">
+			<a href="https://ilibrary.ru/text/436/p.2/index.html"><button class="btn mt-5 perehod">Читать книгу →</button></a>
+		</div>
+	</div>
+</div>
+
+<footer>
+	<div class="container-fluid foot">
+		<div class="row">
+			<div class="col-6 mt-4">
+				<a href="https://t.me/haissse_off"><img class="img-fluid tg"src="img/tg.png" width="40" height="40"></a>
+			</div>
+			<div class="col-6 mt-4">
+				<a href="https://vk.com/haissse_off"><img class="img-fluid vk"src="img/vk.png" width="40" height="40"></a>
+			</div>
+		</div>
+		<div class="row mt-3">
+			<h5 class="text-center">&#9400 2025 chydachyo</h5>
+		</div>
+	</div>
+</footer>
+
+</body>
+</html>

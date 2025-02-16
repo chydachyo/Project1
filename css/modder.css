@@ -1,0 +1,244 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	background-color: black;
+	margin-top: 200px;
+}
+html{
+	scroll-behavior: smooth;
+}
+.LOGO{
+	transition: 0.2s ease-in-out;
+}
+
+.LOGO:hover{
+	transition: 0.2s ease-in-out;
+	transform: scale(1.08);
+	cursor: pointer;
+}
+
+.types{
+	font-size: 30px;
+	font-family: "Advent Pro", serif;
+}
+
+.nazad{
+	transition: 0.2s ease-in-out;
+	border-radius: 10px;
+}
+
+.nazad:hover{
+	transition: 0.2s ease-in-out;
+	transform: scale(1.07); 
+	border: 1px solid gray;
+}
+
+.type2{
+	transition: 0.2s ease-in-out;
+	border-radius: 10px;
+	margin-left: 10px;
+}
+
+.type2:hover{
+	transition: 0.2s ease-in-out;
+	transform: scale(1.07);
+	border: 1px solid gray;
+}
+
+
+.sohr{
+	border: 1px solid black;
+	color: black;
+	font-size: 20px;
+	background-color: #D38E48;
+	font-family: "Advent Pro", serif;
+}
+
+.sohr:hover{
+	border: 1px solid black;
+	color: black;
+	background-color: #E89E54;
+}
+
+.modal-body p{
+	font-size: 25px;
+	font-family: "Advent Pro", serif;
+}
+
+.modal-content{
+	border: 3px solid lightsteelblue;
+}
+
+.YoHo{
+	h1{
+		color: white;
+		font-size: 50px;
+	}
+
+	p{
+		color: gray;
+		font-size: 20px;
+	}
+
+	img{
+		border-radius: 125px;
+		border: 2px solid dodgerblue;
+	}
+}
+
+.YoHo-info{
+	margin-top: 30px;
+
+	.info_bottom{
+		border: 1px solid white;
+		border-radius: 20px;
+		padding: 20px;
+	}
+
+	.info_bottom2{
+		border: 1px solid white;
+		border-radius: 20px;
+		padding: 20px;
+		margin-top: 20px;
+		padding-top: 10px;
+	}
+
+	h1{
+		color: white;
+		font-size: 28px;
+		line-height: 2;
+	}
+
+	p{
+		color: gray;
+		font-size: 20px;
+	}
+
+	.btn1{
+		color: darkorange;
+		font-size: 22px;
+		border-radius: 0px;
+		border: 1px solid darkorange;
+	}
+
+	.btn2{
+		color: dodgerblue;
+		font-size: 22px;
+		border-radius: 0px;
+		border: 1px solid dodgerblue;
+	}
+
+	.btn3{
+		border-radius: 0px;
+		color: blueviolet;
+		font-size: 22px;
+		border: 1px solid blueviolet;
+	}
+}
+
+@media(max-width: 425px){
+	.YoHo-info{
+	h1{
+		color: white;
+		font-size: 28px;
+		line-height: 2;
+	}
+
+	p{
+		color: gray;
+		font-size: 20px;
+	}
+
+	.btn1{
+		color: darkorange;
+		font-size: 20px;
+		border-radius: 0px;
+		border: 1px solid darkorange;
+	}
+
+	.btn2{
+		color: dodgerblue;
+		font-size: 20px;
+		border-radius: 0px;
+		border: 1px solid dodgerblue;
+	}
+
+	.btn3{
+		border-radius: 0px;
+		color: blueviolet;
+		font-size: 20px;
+		border: 1px solid blueviolet;
+	}
+}
+
+
+
+@media(max-width: 375px){
+	.YoHo-info{
+	h1{
+		color: white;
+		font-size: 26px;
+		line-height: 2;
+	}
+
+	p{
+		color: gray;
+		font-size: 19px;
+	}
+
+	.btn1{
+		color: darkorange;
+		font-size: 18px;
+		border-radius: 0px;
+		border: 1px solid darkorange;
+	}
+
+	.btn2{
+		color: dodgerblue;
+		font-size: 18px;
+		border-radius: 0px;
+		border: 1px solid dodgerblue;
+	}
+
+	.btn3{
+		border-radius: 0px;
+		color: blueviolet;
+		font-size: 18px;
+		border: 1px solid blueviolet;
+	}
+}
+
+@media(max-width: 320px){
+	.YoHo-info{
+	h1{
+		color: white;
+		font-size: 21px;
+		line-height: 2;
+	}
+
+	p{
+		color: gray;
+		font-size: 20px;
+	}
+
+	.btn1{
+		color: darkorange;
+		font-size: 18px;
+		border-radius: 0px;
+		border: 1px solid darkorange;
+	}
+
+	.btn2{
+		color: dodgerblue;
+		font-size: 18px;
+		border-radius: 0px;
+		border: 1px solid dodgerblue;
+	}
+
+	.btn3{
+		border-radius: 0px;
+		color: blueviolet;
+		font-size: 18px;
+		border: 1px solid blueviolet;
+	}
+}

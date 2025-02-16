@@ -1,0 +1,160 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	background-color: black;
+	margin-top: 200px;
+}
+
+.header{
+	position: fixed;
+	top: 0;
+	width: 100%;
+	transition: top 0.8s;
+	z-index: 1000;
+}
+
+.LOGO{
+	transition: 0.2s ease-in-out;
+}
+
+.LOGO:hover{
+	transition: 0.2s ease-in-out;
+	transform: scale(1.08);
+	cursor: pointer;
+}
+
+.types{
+	font-size: 30px;
+	font-family: "Advent Pro", serif;
+}
+
+.nazad{
+	transition: 0.2s ease-in-out;
+	border-radius: 10px;
+}
+
+.nazad:hover{
+	transition: 0.2s ease-in-out;
+	transform: scale(1.07);
+	border: 1px solid gray;
+}
+
+.type1{
+	transition: 0.2s ease-in-out;
+	border-radius: 10px;
+}
+
+.type1:hover{
+	transition: 0.2s ease-in-out;
+	transform: scale(1.07);
+	border: 1px solid gray;
+}
+
+.type2{
+	transition: 0.2s ease-in-out;
+	border-radius: 10px;
+}
+
+.type2:hover{
+	transition: 0.2s ease-in-out;
+	transform: scale(1.07);
+	border: 1px solid gray;
+}
+
+.nazv{
+	h1{
+		background: linear-gradient(to top, #FFB87A, #58402B, #020101);
+		text-shadow: #000000 2px 0 10px;
+		padding-top: 30px;
+		padding-bottom: 30px;
+		border-bottom-right-radius: 50px;
+		border-bottom-left-radius: 50px;
+		font-size: 52px;
+		color: white;
+		font-family: "Yeseva One", serif;
+	}
+
+	p{
+		font-size: 36px;
+		color: gray;
+		font-family: "Yeseva One", serif;
+	}
+}
+
+.oknige{
+	p{
+		color: white;
+		font-family: "Advent Pro", serif;
+		font-size: 20px;
+	}
+}
+
+.book-name{
+	color: #A87007;
+	font-size: 22px;
+}
+
+.foot{
+	margin-top: 150px;
+	height: 130px;
+	background-color: #25292D;
+}
+
+.tg{
+	float: right;
+	margin-right: -10px;
+	transition: 0.2s ease-in-out;
+}
+
+.tg:hover{
+	transition: 0.2s ease-in-out;
+	transform: scale(1.2);
+}
+
+.vk{
+	margin-left: -10px;
+	transition: 0.2s ease-in-out;
+}
+
+.vk:hover{
+	transition: 0.2s ease-in-out;
+	transform: scale(1.2);
+}
+
+.foot h5{
+	color: gray;
+	font-family: "Exo 2", serif;
+}
+
+.perehod{
+	color: white;
+	font-size: 25px;
+	background-color: white;
+	border-radius: 20px;
+	transition: 0.2s ease-in-out;
+	background: linear-gradient(#FFB87A, #58402B, #020101);
+	border: 2px solid white;
+	font-family: "Advent Pro", serif;
+	text-shadow: #000000 2px 0 10px;
+
+}
+
+.perehod:hover{
+	transition: 0.2s ease-in-out;
+	transform: scale(1.1);
+	background-color: white;
+	color: white;
+	border: 2px solid white;
+}
+
+@media(max-width: 375px) and (min-width: 325px){
+	.nazv h1{
+		font-size: 44px;
+	}
+}
+
+@media(max-width: 320px){
+	.nazv h1{
+		font-size: 30px;
+	}
+}

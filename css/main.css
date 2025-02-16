@@ -1,0 +1,232 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	background-color: black;
+	margin-top: 200px;
+}
+
+@keyframes ani {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+.header{
+	position: fixed;
+	top: 0;
+	width: 100%;
+	transition: top 1s;
+	z-index: 1000;
+}
+
+.head{
+	border-radius: 40px;
+	border: 2px solid white;
+	opacity: 0;
+  animation: ani 3.5s forwards;
+}
+
+.head h2{
+	font-size: 100px;
+	font-family: "Advent Pro", serif;
+	color: white;
+	padding-left: 30px;
+	background: linear-gradient(to right, #FFB87A, #58402B, #020101);
+	text-shadow: #000000 2px 0 10px;
+	animation: ani 3.2s forwards;
+	border-bottom-left-radius: 30px;
+	border-top-left-radius: 30px;
+}
+.head p{
+	font-size: 40px;
+	color: white;
+	margin-left: 30px;
+	animation: ani 4.5s forwards;
+}
+
+.line{
+	border: 1px solid white;
+	height: 1px;
+	animation: ani 3.5s forwards;
+}
+
+.LOGO{
+	transition: 0.2s ease-in-out;
+}
+
+.LOGO:hover{
+	transition: 0.2s ease-in-out;
+	transform: scale(1.08);
+	cursor: pointer;
+}
+
+.navbarchik{
+	animation: ani 3.5s forwards;
+}
+
+.types{
+	font-size: 30px;
+	font-family: "Advent Pro", serif;
+}
+
+.type1{
+	transition: 0.2s ease-in-out;
+	animation: ani 3.5s forwards;
+	border-radius: 10px;
+}
+
+.type1:hover{
+	transition: 0.2s ease-in-out;
+	transform: scale(1.07);
+	border: 1px solid gray;
+}
+
+.type2{
+	transition: 0.2s ease-in-out;
+	animation: ani 4s forwards;
+	border-radius: 10px;
+	margin-left: 10px;
+}
+
+.type2:hover{
+	transition: 0.2s ease-in-out;
+	transform: scale(1.07);
+	border: 1px solid gray;
+}
+
+
+.onas h1{
+	margin-top: 200px;
+	font-family: "Advent Pro", serif;
+	font-size: 80px;
+	color: white;
+	animation: ani 3.5s forwards;
+}
+
+.onas p{
+	font-family: "Advent Pro", serif;
+	font-size: 25px;
+	color: white;
+	animation: ani 3.5s forwards;
+}
+
+.Literature{
+	margin-top: 150px;
+	margin-bottom: 120px;
+}
+
+.perehod h1{
+	color: white;
+	font-size: 52px;
+	padding: 40px;
+	font-family: "Advent Pro", serif;
+}
+
+.headerimg{
+	float: right;
+}
+
+.perehod{
+	border-radius: 60px;
+	transition: 0.2s ease-in-out;
+	border: 1px solid white;
+	background: linear-gradient(#FFB87A, #58402B, #020101);
+	text-shadow: #000000 2px 0 10px;
+}
+
+.perehod:hover{
+	transition: 0.2s ease-in-out;
+	transform: scale(1.03);
+	border: 1px solid white;
+}
+
+
+.foot{
+	margin-top: 150px;
+	height: 130px;
+	background-color: #25292D;
+}
+
+.tg{
+	float: right;
+	margin-right: -10px;
+	transition: 0.2s ease-in-out;
+}
+
+.tg:hover{
+	transition: 0.2s ease-in-out;
+	transform: scale(1.2);
+}
+
+.vk{
+	margin-left: -10px;
+	transition: 0.2s ease-in-out;
+}
+
+.vk:hover{
+	transition: 0.2s ease-in-out;
+	transform: scale(1.2);
+}
+
+.foot h5{
+	color: gray;
+	font-family: "Exo 2", serif;
+}
+
+@media(max-width: 991px) and (min-width: 768px){
+	.head h2{
+		font-size: 80px;
+	}
+}
+
+@media(max-width: 767px) and (min-width: 425px){
+	.head h2{
+		font-size: 60px;
+	}
+}
+
+@media(max-width: 424px) and (min-width: 320px){
+	.head h2{
+		font-size: 45px;
+	}
+
+}
+
+.sohr{
+	border: 1px solid black;
+	color: black;
+	font-size: 20px;
+	background-color: #D38E48;
+	font-family: "Advent Pro", serif;
+}
+
+.sohr:hover{
+	border: 1px solid black;
+	color: black;
+	background-color: #E89E54;
+}
+
+.modal-body p{
+	font-size: 25px;
+	font-family: "Advent Pro", serif;
+}
+
+.modal-content{
+	border: 3px solid lightsteelblue;
+}
+
+::selection {
+  background: white;
+  color: blueviolet;
+  text-shadow: none;
+  text-shadow: 1px 1px 0 black;
+}
+
+::-moz-selection {
+  background: white;
+  color: blueviolet;
+  text-shadow: none;
+}

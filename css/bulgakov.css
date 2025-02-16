@@ -1,0 +1,163 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	background-color: black;
+	margin-top: 200px;
+}
+
+.header{
+	position: fixed;
+	top: 0;
+	width: 100%;
+	transition: top 0.8s;
+	z-index: 1000;
+}
+
+.LOGO{
+	transition: 0.2s ease-in-out;
+}
+
+.LOGO:hover{
+	transition: 0.2s ease-in-out;
+	transform: scale(1.08);
+	cursor: pointer;
+}
+
+.types{
+	font-size: 30px;
+	font-family: "Advent Pro", serif;
+}
+
+.nazad{
+	transition: 0.2s ease-in-out;
+	border-radius: 10px;
+}
+
+.nazad:hover{
+	transition: 0.2s ease-in-out;
+	transform: scale(1.07);
+	border: 1px solid gray;
+}
+
+.type1{
+	transition: 0.2s ease-in-out;
+	border-radius: 10px;
+}
+
+.type1:hover{
+	transition: 0.2s ease-in-out;
+	transform: scale(1.07);
+	border: 1px solid gray;
+}
+
+.type2{
+	transition: 0.2s ease-in-out;
+	border-radius: 10px;
+}
+
+.type2:hover{
+	transition: 0.2s ease-in-out;
+	transform: scale(1.07);
+	border: 1px solid gray;
+}
+
+.plashka{
+	background-color: white;
+	height: auto;
+	border-top-left-radius: 75px;
+	border-bottom-right-radius: 50px;
+}
+
+.bulgakovimg{
+	margin-left: -12px;
+}
+
+.plashka h1{
+	font-family: "Yeseva One", serif;
+	font-size: 46px;
+}
+
+.plashka h3{
+	font-family: "Yeseva One", serif;
+	font-size: 33px;
+}
+
+.plashka p{
+	font-family: "Exo-2", serif;
+	font-size: 20px;
+}
+
+.col-knigi img{
+	transition: 0.2s ease-in-out;
+	box-shadow: 0 0 5px black, 0 0 25px black;
+	border: 2px solid black;
+}
+
+.col-knigi img:hover{
+	transition: 0.2s ease-in-out;
+	transform: scale(1.1);
+	box-shadow: 0 0 30px black, 0 0 50px black;
+}
+
+
+.foot{
+	margin-top: 150px;
+	height: 130px;
+	background-color: #25292D;
+}
+
+.tg{
+	float: right;
+	margin-right: -10px;
+	transition: 0.2s ease-in-out;
+}
+
+.tg:hover{
+	transition: 0.2s ease-in-out;
+	transform: scale(1.2);
+}
+
+.vk{
+	margin-left: -10px;
+	transition: 0.2s ease-in-out;
+}
+
+.vk:hover{
+	transition: 0.2s ease-in-out;
+	transform: scale(1.2);
+}
+
+.foot h5{
+	color: gray;
+	font-family: "Exo 2", serif;
+}
+
+@media(max-width: 2560px) and (min-width: 1440px){
+	.foot{
+		margin-top: 440px;
+	}
+}
+
+
+.sohr{
+	border: 1px solid black;
+	color: black;
+	font-size: 20px;
+	background-color: #D38E48;
+	font-family: "Advent Pro", serif;
+}
+
+.sohr:hover{
+	border: 1px solid black;
+	color: black;
+	background-color: #E89E54;
+}
+
+.modal-body p{
+	font-size: 25px;
+	font-family: "Advent Pro", serif;
+}
+
+.modal-content{
+	border: 3px solid lightsteelblue;
+}
