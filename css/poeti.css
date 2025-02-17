@@ -1,7 +1,7 @@
 body{
 	margin: 0px;
 	padding: 0px;
-	background-color: black;
+	background-color: #171717;
 	margin-top: 200px;
 }
 
@@ -25,48 +25,48 @@ body{
 }
 
 .types{
-	font-size: 30px;
+	font-size: 25px;
 	font-family: "Advent Pro", serif;
 }
 
 .nazad{
-	transition: 0.2s ease-in-out;
-	border-radius: 10px;
+	transition: 0.5s ease-in-out;
+	border-radius: 0px;
+	padding-bottom: 2px;
 }
 
 .nazad:hover{
-	transition: 0.2s ease-in-out;
-	transform: scale(1.07);
-	border: 1px solid gray;
+	transition: 0.5s ease-in-out;
+	border-bottom: 1px solid sandybrown;
 }
 
 .type1{
-	transition: 0.2s ease-in-out;
-	border-radius: 10px;
+	transition: 0.5s ease-in-out;
+	border-radius: 0px;
+	padding-bottom: 2px;
 }
 
 .type1:hover{
-	transition: 0.2s ease-in-out;
-	transform: scale(1.07);
-	border: 1px solid gray;
+	transition: 0.5s ease-in-out;
+	border-bottom: 1px solid sandybrown;
 }
 
 .type2{
-	transition: 0.2s ease-in-out;
-	border-radius: 10px;
+	transition: 0.5s ease-in-out;
+	border-radius: 0px;
+	padding-bottom: 2px;
 }
 
 .type2:hover{
-	transition: 0.2s ease-in-out;
-	transform: scale(1.07);
-	border: 1px solid gray;
+	transition: 0.5s ease-in-out;
+	border-bottom: 1px solid sandybrown;
 }
 
 .theme h1{
 	font-size: 46px;
 	color: white;
 	font-family: "Yeseva One", serif;
-	background: linear-gradient(to top, #FFB87A, #58402B, #020101);
+	background: linear-gradient(to top, #FFB87A, #58402B, #171717);
 	padding-bottom: 30px;
 	padding-top: 30px;
 	border-bottom-left-radius: 50px;
@@ -138,13 +138,13 @@ body{
 	}
 
 	.foot{
-		margin-top: 240px;
+		margin-top: 150px;
 	}
 }
 
 @media(max-width: 2560px) and (min-width: 1440px){
 	.foot{
-		margin-top: 430px;
+		margin-top: 150px;
 	}
 }
 
@@ -154,6 +154,7 @@ body{
 	font-size: 20px;
 	background-color: #D38E48;
 	font-family: "Advent Pro", serif;
+	margin-bottom: -12px;
 }
 
 .sohr:hover{
@@ -168,5 +169,9 @@ body{
 }
 
 .modal-content{
-	border: 3px solid lightsteelblue;
+	border: 3px solid #D38E48;
+}
+
+.dropdown-text{
+	font-size: 22px;
 }

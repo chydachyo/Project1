@@ -18,10 +18,11 @@
 <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-	<header>
-	<nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top navbarchik">
+
+<header id="header" class="header">
+	<nav class="navbar navbar-expand-md bg-dark navbar-dark">
   	<div class="container-fluid">
-    	<a href="index.html" class="navbar-brand LOGO"><img src="img/LOGOBTN.png" width="130" height="130"></a>
+    	<a href="index.html" class="navbar-brand LOGO"><img src="img/LOGOBTN.png" width="80" height="80"></a>
 
 <!--невидимая кнопка при уменьшении экрана -->
     	<button 
@@ -41,6 +42,9 @@
       		<li class="nav-item">
       			<a class="nav-link active nazad" aria-current="page" href="index.html">← Назад</a>
       		</li>
+        	<li class="nav-item"> 
+          	<a class="nav-link active type1" aria-current="page" href="index.html">Главная</a>
+        	</li>
         	<li class="nav-item dropdown">
 
           	<a href="#" 
@@ -51,7 +55,7 @@
             	Подробнее
           	</a>
 
-          	<ul class="dropdown-menu">
+          	<ul class="dropdown-menu dropdown-text">
             	<li><a class="dropdown-item" data-bs-toggle="modal" data-bs-target="#exampleModal" href="#exampleModalLabel">Поддержать автора</a></li>
           	</ul>
         	</li>
@@ -61,6 +65,7 @@
 	</nav>
 </header>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
 
 <!-- Модальное окно -->
 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -74,7 +79,7 @@
       	<p class="text-center">Купить автору чашечку кофе - 5$<br>+7 939-758-04-77<br>
       	<img class="img-fluid" src="img/coffemain.gif" width="110"></p>
       <div class="modal-footer">
-        <button type="button" class="btn sohr" data-bs-dismiss="modal">Сохранить изменения</button>
+        <button type="button" class="btn sohr" data-bs-dismiss="modal">ОК</button>
       	</div>
     	</div>
   	</div>
@@ -95,7 +100,7 @@
 	<div class="row info_bottom">
 		<div class="col-10 col-sm-10 col-md-10 col-lg-10">
 			<h1>About Me | Обо мне</h1>
-			<p>Меня зовут Лукьянов Егор Юрьевич, я являюсь создателем этого сайта, на момент создания сайта 16 лет, занимаюсь изучением WEB технологий, в том числе: HTML, CSS и фреймворк Bootstrap.</p>
+			<p>Меня зовут Лукьянов Егор Юрьевич. Я - создатель этого сайта. Мне 16 лет, занимаюсь изучением HTML, CSS и фреймворка Bootstrap.</p>
 		</div>
 	</div>
 	<div class="row info_bottom2">

@@ -1,8 +1,7 @@
 body{
 	margin: 0px;
 	padding: 0px;
-	background-color: black;
-	margin-top: 200px;
+	background-color: #171717;
 }
 html{
 	scroll-behavior: smooth;
@@ -17,34 +16,48 @@ html{
 	cursor: pointer;
 }
 
+
 .types{
-	font-size: 30px;
+	font-size: 25px;
 	font-family: "Advent Pro", serif;
 }
 
 .nazad{
-	transition: 0.2s ease-in-out;
-	border-radius: 10px;
+	transition: 0.5s ease-in-out;
+	border-radius: 0px;
+	padding-bottom: 2px;
 }
 
 .nazad:hover{
-	transition: 0.2s ease-in-out;
-	transform: scale(1.07); 
-	border: 1px solid gray;
+	transition: 0.5s ease-in-out;
+	border-bottom: 1px solid sandybrown;
+}
+
+.type1{
+	transition: 0.5s ease-in-out;
+	border-radius: 0px;
+	padding-bottom: 2px;
+}
+
+.type1:hover{
+	transition: 0.5s ease-in-out;
+	border-bottom: 1px solid sandybrown;
 }
 
 .type2{
-	transition: 0.2s ease-in-out;
-	border-radius: 10px;
-	margin-left: 10px;
+	transition: 0.5s ease-in-out;
+	border-radius: 0px;
+	padding-bottom: 2px;
 }
 
 .type2:hover{
-	transition: 0.2s ease-in-out;
-	transform: scale(1.07);
-	border: 1px solid gray;
+	transition: 0.5s ease-in-out;
+	border-bottom: 1px solid sandybrown;
 }
 
+.dropdown-text{
+	font-size: 22px;
+}
 
 .sohr{
 	border: 1px solid black;
@@ -52,6 +65,7 @@ html{
 	font-size: 20px;
 	background-color: #D38E48;
 	font-family: "Advent Pro", serif;
+	margin-bottom: -12px;
 }
 
 .sohr:hover{
@@ -66,10 +80,11 @@ html{
 }
 
 .modal-content{
-	border: 3px solid lightsteelblue;
+	border: 3px solid sandybrown;
 }
 
 .YoHo{
+	margin-top: 100px;
 	h1{
 		color: white;
 		font-size: 50px;

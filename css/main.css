@@ -1,7 +1,7 @@
 body{
 	margin: 0px;
 	padding: 0px;
-	background-color: black;
+	background-color: #171717;
 	margin-top: 200px;
 }
 
@@ -34,12 +34,13 @@ html{
 	font-family: "Advent Pro", serif;
 	color: white;
 	padding-left: 30px;
-	background: linear-gradient(to right, #FFB87A, #58402B, #020101);
+	background: linear-gradient(to right, #FFB87A, #58402B, #171717);
 	text-shadow: #000000 2px 0 10px;
 	animation: ani 3.2s forwards;
 	border-bottom-left-radius: 30px;
 	border-top-left-radius: 30px;
 }
+
 .head p{
 	font-size: 40px;
 	color: white;
@@ -68,33 +69,33 @@ html{
 }
 
 .types{
-	font-size: 30px;
+	font-size: 25px;
 	font-family: "Advent Pro", serif;
 }
 
 .type1{
-	transition: 0.2s ease-in-out;
+	transition: 0.5s ease-in-out;
 	animation: ani 3.5s forwards;
-	border-radius: 10px;
+	border-radius: 0px;
+	padding-bottom: 2px;
 }
 
 .type1:hover{
-	transition: 0.2s ease-in-out;
-	transform: scale(1.07);
-	border: 1px solid gray;
+	transition: 0.5s ease-in-out;
+	border-bottom: 1px solid sandybrown;
 }
 
 .type2{
-	transition: 0.2s ease-in-out;
+	transition: 0.5s ease-in-out;
 	animation: ani 4s forwards;
-	border-radius: 10px;
+	border-radius: 0px;
 	margin-left: 10px;
+	padding-bottom: 2px;
 }
 
 .type2:hover{
-	transition: 0.2s ease-in-out;
-	transform: scale(1.07);
-	border: 1px solid gray;
+	transition: 0.5s ease-in-out;
+	border-bottom: 1px solid sandybrown;
 }
 
 
@@ -176,23 +177,96 @@ html{
 	font-family: "Exo 2", serif;
 }
 
-@media(max-width: 991px) and (min-width: 768px){
+@media(max-width: 1024px){
+	.perehod h1{
+		font-size: 35px;
+	}
+}
+
+@media(max-width: 991px){
 	.head h2{
 		font-size: 80px;
 	}
 }
 
-@media(max-width: 767px) and (min-width: 425px){
+@media(max-width: 768px) and (min-width: 426px){
 	.head h2{
 		font-size: 60px;
 	}
+
+	.perehod h1{
+		font-size: 25px;
+	}
 }
 
-@media(max-width: 424px) and (min-width: 320px){
+@media only screen and (max-width: 430px) and (device-width: 430px){
+	.perehod h1{
+		padding: 15px;
+		font-size: 30px;
+	}
+
+	.perehod{
+		margin-top: 50px;
+		margin-left: 38px;
+	}
+}
+
+@media(max-width: 425px) and (min-width: 376px){
+	.head h2{
+		font-size: 60px;
+	}
+
+	.perehod h1{
+		font-size: 32.6px;
+		padding: 20px;
+	}
+
+	.perehod{
+		margin-top: 50px;
+		margin-left: 20px;
+	}
+}
+
+@media only screen and (max-width: 390px){
+	.perehod h1{
+		padding: 15px;
+		font-size: 30px;
+	}
+	
+}
+
+
+
+@media(max-width: 375px) and (min-width: 321px){
+	.head h2{
+		font-size: 55px;
+	}
+
+	.perehod h1{
+		font-size: 27px;
+		padding: 15px;
+
+	}
+	.perehod{
+		margin-left: 25px;
+		margin-top: 50px;
+	}
+}
+
+@media(max-width: 320px){
 	.head h2{
 		font-size: 45px;
 	}
 
+	.perehod h1{
+		font-size: 25px;
+		padding: 15px;
+	}
+
+	.perehod{
+		margin-top: 50px;
+		margin-left: 5px;
+	}
 }
 
 .sohr{
@@ -201,6 +275,7 @@ html{
 	font-size: 20px;
 	background-color: #D38E48;
 	font-family: "Advent Pro", serif;
+	margin-bottom: -12px;
 }
 
 .sohr:hover{
@@ -215,7 +290,7 @@ html{
 }
 
 .modal-content{
-	border: 3px solid lightsteelblue;
+	border: 3px solid #D38E48;
 }
 
 ::selection {
@@ -229,4 +304,8 @@ html{
   background: white;
   color: blueviolet;
   text-shadow: none;
+}
+
+.dropdown-text{
+	font-size: 22px;
 }
